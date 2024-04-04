@@ -8,7 +8,7 @@ export function activate(context: vscode.ExtensionContext) {
     const poemLineDecorationType = vscode.window.createTextEditorDecorationType({
         dark: {	before: { color: 'MediumSlateBlue'} },
         light: { before: { color: 'LightBlue' }	},
-        before: { width: "1.5em" }
+        before: { width: "1.5em", fontStyle: 'normal' }
     });
 
     let activeEditor = vscode.window.activeTextEditor;

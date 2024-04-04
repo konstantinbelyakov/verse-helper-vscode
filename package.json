@@ -2,7 +2,7 @@
     "name": "verse-helper",
     "displayName": "Verse Helper",
     "description": "Подсчет слогов в стихотворных строчках (только русский язык)",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "beliakov",
     "license": "MIT",
     "engines": {
